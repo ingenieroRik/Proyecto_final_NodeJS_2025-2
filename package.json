@@ -1,0 +1,13 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "proyecto final node 2025-02",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "ricardo garcia",
+  "license": "ISC"
+}
