@@ -1,13 +1,22 @@
 {
-  "name": "proyecto-final",
+  "name": "proyectofinalnode",
   "version": "1.0.0",
-  "description": "proyecto final node 2025-02",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
   },
-  "author": "ricardo garcia",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "firebase": "^12.6.0",
+    "jsonwebtoken": "^9.0.2"
+  }
 }
