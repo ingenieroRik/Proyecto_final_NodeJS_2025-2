@@ -6,7 +6,7 @@ import { checkAdmin, verifyToken } from "../middlewares/authJWT.js";
 
 const router = Router()
 
-router.get('/',verifyToken,checkAdmin, getAllUsers); // 
+router.get('/', verifyToken, checkAdmin, getAllUsers);
 router.get('/:id',getUserById);
 
 
